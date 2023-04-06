@@ -1,5 +1,5 @@
 {% set name = "cvxpygen" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cvxpygen-{{ version }}.tar.gz
-  sha256: 6e22bf377aec5cab869554a8fb95a6c2d386ae275529c8147fa3547442f2bbc5
+  sha256: 6ddcccc0fba953b8dceb0b43b1d356736621ae09418866a952d02da169d041e3
 
 build:
   skip: true  # [py2k]
